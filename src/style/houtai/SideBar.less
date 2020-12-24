@@ -1,0 +1,86 @@
+.SideBar{
+  width: 200px;
+  height: 100%;
+  background: rgb(58, 63, 81);
+  .SideBar_title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    border-bottom: #454b61 solid 1px;
+    overflow: hidden;
+
+  }
+  .SideBar_List{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    .SideBar_menu{
+      position: relative;
+      width: 100%;
+      font-size: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .Menu_top{
+        width: 80%;
+        height: 55px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color:rgb(181, 182, 189);
+        overflow: hidden;
+        span{
+          display: block;
+          padding-left: 8px;
+        }
+      }
+      .el-icon-arrow-down{
+        position: absolute;
+        top:20px;
+        right: 20px;
+        color: rgb(181, 182, 189);
+      }
+      .Menu_Ul{
+        width: 200px;
+        background: rgb(58, 63, 81);
+        display: flex;
+        flex-direction: column;
+        .Menu_Li{
+          width: 100%;
+          height: 55px;
+          display: flex;
+          padding-left: 50px;
+          justify-content: flex-start;
+          align-items: center;
+          color: rgb(181, 182, 189);
+          font-size: 15px;
+          span{
+            display: block;
+            padding-left: 8px;
+          }
+        }
+        .Menu_Li:hover{
+          background: dimgray;
+        }
+      }
+    }
+    .SideBar_menu:hover{
+      background: indianred;
+    }
+  }
+}
+.clickActive{
+  color: rgb(79, 148, 212)!important;
+}
+//当sidebar为缩小形态时，点击有二级菜单的按钮时，二级菜单会显示在sidebar右边框外面
+.OutsideMenu_Ul{
+  position: absolute;
+  right:-200px;
+  z-index: 999;
+}

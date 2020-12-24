@@ -1,0 +1,45 @@
+.table_container {
+  height: 100%;
+  position: relative;
+}
+.table_container span {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 20px ;
+}
+.table_container .table {
+  overflow: hidden;
+}
+.table_container .table .cell {
+  height: 50px ;
+  line-height: 50px ;
+}
+.table_container .table .el-table__header tr,
+.table_container .table .el-table__header th {
+  padding: 0;
+  height: 55px;
+  line-height: 55px;
+}
+.table_container .table .el-table__body tr,
+.table_container .table .el-table__body td {
+  padding: 0;
+  height: 55px;
+  line-height: 55px;
+}
+.table_container .table span {
+  position: relative;
+  top: 7px;
+  display: block;
+  width: 70px;
+  font-size: 16px;
+}
+.table_container .table .el-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.table_container .table .el-pagination .active {
+  color: #ffffff !important;
+}
+/*# sourceMappingURL=normal.css.map */

@@ -1,0 +1,28 @@
+.all .notFound_content {
+  position: absolute;
+  top: 80px;
+  left: 38%;
+  width: 360px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.all .notFound_content span {
+  font-size: 20px;
+  color: #ffffff;
+}
+.all .notFound_content button {
+  width: 98px;
+  height: 40px;
+  border: 1px solid #dcdfe6;
+  border-radius: 5px;
+  background: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+.all .notFound_content button:hover {
+  color: #19b9e7;
+}
+/*# sourceMappingURL=404.css.map */

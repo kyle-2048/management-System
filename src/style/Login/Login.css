@@ -1,0 +1,176 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.all {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url("../../assets/BgImg/loginBg.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.III {
+  position: absolute;
+  font-size: 18px;
+  color: #999999;
+  top: 36px;
+  left: 10px;
+}
+.Login {
+  position: absolute;
+  top: 20%;
+  left: 33%;
+  width: 590px;
+  height: 500px;
+}
+.Login .Login_title {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.Login .Login_container {
+  width: 100%;
+  height: 400px;
+  background: #eee;
+}
+.Login .Login_container .Login_top {
+  position: relative;
+  width: 100%;
+  height: 125px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.Login .Login_container .Login_top span {
+  margin: 10px 0 10px 20px;
+}
+.Login .Login_container .Login_top span:nth-of-type(1) {
+  font-size: 25px;
+  height: 33px;
+  line-height: 33px;
+  color: black;
+  font-weight: normal;
+}
+.Login .Login_container .Login_top span:nth-of-type(2) {
+  font-size: 18px;
+  height: 25px;
+  line-height: 25px;
+  color: darkgray;
+  font-weight: lighter;
+}
+.Login .Login_container .Login_top .el-icon-key {
+  position: absolute;
+  top: 25px;
+  right: 15px;
+  font-size: 70px;
+  color: lightgray;
+}
+.Login .Login_container .Login_bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Login .Login_container .Login_bottom .text_container,
+.Login .Login_container .Login_bottom .password_container {
+  width: 80%;
+  position: relative;
+}
+.Login .Login_container .Login_bottom .text_container i {
+  position: absolute;
+  font-size: 18px;
+  color: #999999;
+  top: 36px;
+  left: 10px;
+}
+.Login .Login_container .Login_bottom .password_container .el-icon-lock {
+  position: absolute;
+  font-size: 18px;
+  color: #999999;
+  top: 36px;
+  left: 10px;
+}
+.Login .Login_container .Login_bottom .password_container .el-icon-view {
+  position: absolute;
+  font-size: 18px;
+  color: #999999;
+  top: 32px;
+  right: 10px;
+}
+.Login .Login_container .Login_bottom input {
+  width: 100%;
+  margin-top: 20px;
+  padding-left: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: black;
+  height: 50px;
+}
+.Login .Login_container .Login_bottom input[type=password] {
+  padding-right: 40px;
+}
+.Login .Login_container .Login_bottom input[type=button] {
+  width: 80%;
+  height: 40px;
+  padding-left: 0;
+  background: #19b9e7;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+@keyframes move {
+  0% {
+    transform: translateX(330px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.Login_tips {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  width: 330px;
+  height: 120px;
+  border-radius: 5px;
+  background: #ffffff;
+  animation: move 1s;
+}
+.Login_tips .header {
+  margin: 10px 0 0 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  height: 30px;
+}
+.Login_tips .header i:nth-of-type(1) {
+  color: orangered;
+  font-size: 18px;
+}
+.Login_tips .header span {
+  display: inline-block;
+  width: 240px;
+  margin-left: 10px;
+}
+.Login_tips .header i:nth-of-type(2) {
+  color: #cccccc;
+}
+.Login_tips .main {
+  width: 250px;
+  height: 65px;
+  margin-left: 30px;
+  font-size: 14px;
+  line-height: 21px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=Login.css.map */

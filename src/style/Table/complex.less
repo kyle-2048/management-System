@@ -1,0 +1,142 @@
+.all{
+  position: relative;
+  .table_container{
+    span{
+      font-size: 14px;
+      display: block;
+      margin-bottom: 10px ;
+    }
+    .table{
+      overflow: hidden;
+      .cell{
+        height: 40px ;
+        line-height: 40px ;
+      }
+      .el-table__header tr,
+      .el-table__header th {
+        padding: 0;
+        height: 55px;
+        line-height: 55px;
+      }
+      .el-table__body tr,
+      .el-table__body td{
+        padding: 0;
+        height: 55px;
+        line-height: 55px;
+      }
+      span{
+        position: relative;
+        top: 10px;
+        left: 25px;
+        width: 68px;
+        font-size: 14px;
+      }
+      .buttonGroup{
+        margin: 0 auto;
+        width: 95%;
+        height: 45px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        button{
+          width: 60px;
+          height: 30px;
+          border-radius: 3px;
+          border: none;
+          outline: none;
+          color: #ffffff;
+          cursor: pointer;
+        }
+        button:hover{
+          opacity: 0.8;
+        }
+        button:nth-of-type(1){
+          background: #409eff;
+        }
+        button:nth-of-type(2){
+          background: #e6a23c;
+        }
+        button:nth-of-type(3){
+          background: #f56c6c;
+        }
+        button:nth-of-type(4){
+          background: black;
+        }
+      }
+      .el-pagination{
+        text-align: center;
+        margin-top: 10px;
+        height: 40px;
+       i{
+         font-size: 18px;
+       }
+        li{
+         font-size: 18px;
+        }
+        .active{
+          color:#409EFF!important;
+        }
+      }
+
+    }
+    .block{
+
+    }
+  }
+  .editContainer{
+    position: absolute;
+    left:10%;
+    top: 10%;
+    width: 800px;
+    height: 540px;
+    background: #ffffff;
+    z-index: 900;
+    .header{
+      margin: 0 auto;
+      width: 750px;
+      height: 58px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      span{
+        display: block;
+        width: 75px;
+        height: 25px;
+        font-size: 18px;
+      }
+    }
+    .inputContainer{
+      margin: 15px auto;
+      width: 700px;
+      height: 430px;
+      background: #ffffff;
+      display: flex;
+      .title{
+        width: 70px;
+        height: 335px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-right: 20px;
+        margin-top: 12px;
+        span{
+          font-size: 15px;
+        }
+        span::before{
+          content: "*";
+          color: black;
+        }
+      }
+      .input{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 360px;
+        height: 425px;
+      }
+    }
+  }
+}
+
+

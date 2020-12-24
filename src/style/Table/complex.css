@@ -1,0 +1,135 @@
+.all {
+  position: relative;
+}
+.all .table_container span {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px ;
+}
+.all .table_container .table {
+  overflow: hidden;
+}
+.all .table_container .table .cell {
+  height: 40px ;
+  line-height: 40px ;
+}
+.all .table_container .table .el-table__header tr,
+.all .table_container .table .el-table__header th {
+  padding: 0;
+  height: 55px;
+  line-height: 55px;
+}
+.all .table_container .table .el-table__body tr,
+.all .table_container .table .el-table__body td {
+  padding: 0;
+  height: 55px;
+  line-height: 55px;
+}
+.all .table_container .table span {
+  position: relative;
+  top: 10px;
+  left: 25px;
+  width: 68px;
+  font-size: 14px;
+}
+.all .table_container .table .buttonGroup {
+  margin: 0 auto;
+  width: 95%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all .table_container .table .buttonGroup button {
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+.all .table_container .table .buttonGroup button:hover {
+  opacity: 0.8;
+}
+.all .table_container .table .buttonGroup button:nth-of-type(1) {
+  background: #409eff;
+}
+.all .table_container .table .buttonGroup button:nth-of-type(2) {
+  background: #e6a23c;
+}
+.all .table_container .table .buttonGroup button:nth-of-type(3) {
+  background: #f56c6c;
+}
+.all .table_container .table .buttonGroup button:nth-of-type(4) {
+  background: black;
+}
+.all .table_container .table .el-pagination {
+  text-align: center;
+  margin-top: 10px;
+  height: 40px;
+}
+.all .table_container .table .el-pagination i {
+  font-size: 18px;
+}
+.all .table_container .table .el-pagination li {
+  font-size: 18px;
+}
+.all .table_container .table .el-pagination .active {
+  color: #409EFF !important;
+}
+.all .editContainer {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 800px;
+  height: 540px;
+  background: #ffffff;
+  z-index: 900;
+}
+.all .editContainer .header {
+  margin: 0 auto;
+  width: 750px;
+  height: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.all .editContainer .header span {
+  display: block;
+  width: 75px;
+  height: 25px;
+  font-size: 18px;
+}
+.all .editContainer .inputContainer {
+  margin: 15px auto;
+  width: 700px;
+  height: 430px;
+  background: #ffffff;
+  display: flex;
+}
+.all .editContainer .inputContainer .title {
+  width: 70px;
+  height: 335px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-top: 12px;
+}
+.all .editContainer .inputContainer .title span {
+  font-size: 15px;
+}
+.all .editContainer .inputContainer .title span::before {
+  content: "*";
+  color: black;
+}
+.all .editContainer .inputContainer .input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 360px;
+  height: 425px;
+}
+/*# sourceMappingURL=complex.css.map */

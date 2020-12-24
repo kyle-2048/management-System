@@ -1,0 +1,147 @@
+.all{
+  position: relative;
+}
+.addCon{
+  position: absolute;
+  left: 18%;
+  top: 5%;
+  width: 700px;
+  height: 570px;
+  z-index: 900;
+  background: #ffffff;
+  border: 1px solid #454b61;
+  .top{
+    width: 90%;
+    height: 24px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    span{
+      display: inline-block;
+      font-size: 18px;
+      line-height: 24px;
+    }
+    i{
+      display: inline-block;
+      width: 15px;
+    }
+  }
+  .inputContainer{
+    width: 80%;
+    height: 60px;
+    margin: 8px auto 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    span{
+      font-size: 15px;
+      margin-right: 15px;
+    }
+    span:before{
+      content: '*';
+      padding-right: 5px;
+      color: #f56c6c;
+    }
+    input{
+      width: 370px;
+      height: 40px;
+      border: 1px solid #cccccc;
+      border-radius: 5px;
+      padding-left: 15px;
+    }
+    input::-webkit-input-placeholder{
+      color:#cccccc;
+    }
+    input::-moz-placeholder{
+      color:#cccccc;
+    }
+    input::-ms-input-placeholder{
+      color:#cccccc;
+    }
+  }
+  .CheckBoxContainer{
+    margin: 5px auto;
+    width: 80%;
+    height: 300px;
+    //background: #f56c6c;
+    display: flex;
+    justify-content: flex-start;
+    .title{
+      width: 10%;
+      height: 100%;
+      //margin-left: 100px;
+      padding-top: 20px;
+    }
+    .CheckBoxGroup{
+      width: 85%;
+      height: 100%;
+      .el-checkbox-group{
+        display: flex;
+        flex-direction: column;
+        .el-checkbox{
+          margin: 4px 0;
+          .el-checkbox__inner{ //修改checkbox框大小
+            width: 15px;
+            height: 15px;
+          }
+          .el-checkbox__label{  //修改checkbox框旁字体大小
+            font-size: 14px;
+            color: #606266;
+          }
+        }
+      }
+    }
+  }
+  .buttonGroup{
+    position: relative;
+    top:10px;
+    left:150px;
+  }
+}
+.DelCon{
+  position: absolute;
+  left: 30%;
+  top:30%;
+  width: 425px;
+  height: 125px;
+  background: #ffffff;
+  border-radius: 5px;
+  z-index: 900;
+  div:nth-of-type(1){
+    margin: 5px auto;
+    width: 390px;
+    height: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span{
+      font-size: 18px;
+    }
+    i{
+      font-size: 14px;
+      color: #cccccc;
+      cursor: pointer;
+    }
+  }
+  div:nth-of-type(2){
+    margin: 18px auto;
+    width: 390px;
+    height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    i{
+      color: orange;
+      font-size: 20px;
+    }
+    span{
+      padding-left: 10px;
+      font-size: 16px;
+    }
+  }
+  .buttonGroup2{
+    position: relative;
+    bottom: 0px;
+    left: 280px;
+  }
+}

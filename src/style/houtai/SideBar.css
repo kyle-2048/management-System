@@ -1,0 +1,85 @@
+.SideBar {
+  width: 200px;
+  height: 100%;
+  background: #3a3f51;
+}
+.SideBar .SideBar_title {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: #454b61 solid 1px;
+  overflow: hidden;
+}
+.SideBar .SideBar_List {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.SideBar .SideBar_List .SideBar_menu {
+  position: relative;
+  width: 100%;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.SideBar .SideBar_List .SideBar_menu .Menu_top {
+  width: 80%;
+  height: 55px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #b5b6bd;
+  overflow: hidden;
+}
+.SideBar .SideBar_List .SideBar_menu .Menu_top span {
+  display: block;
+  padding-left: 8px;
+}
+.SideBar .SideBar_List .SideBar_menu .el-icon-arrow-down {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #b5b6bd;
+}
+.SideBar .SideBar_List .SideBar_menu .Menu_Ul {
+  width: 200px;
+  background: #3a3f51;
+  display: flex;
+  flex-direction: column;
+}
+.SideBar .SideBar_List .SideBar_menu .Menu_Ul .Menu_Li {
+  width: 100%;
+  height: 55px;
+  display: flex;
+  padding-left: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  color: #b5b6bd;
+  font-size: 15px;
+}
+.SideBar .SideBar_List .SideBar_menu .Menu_Ul .Menu_Li span {
+  display: block;
+  padding-left: 8px;
+}
+.SideBar .SideBar_List .SideBar_menu .Menu_Ul .Menu_Li:hover {
+  background: dimgray;
+}
+.SideBar .SideBar_List .SideBar_menu:hover {
+  background: indianred;
+}
+.clickActive {
+  color: #4f94d4 !important;
+}
+.OutsideMenu_Ul {
+  position: absolute;
+  right: -200px;
+  z-index: 999;
+}
+/*# sourceMappingURL=SideBar.css.map */
